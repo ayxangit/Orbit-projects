@@ -86,7 +86,7 @@ $widht: 100%;
 
 // start who i am 
 .back_img_box{
-    width: 100%;
+    width: $widht;
     height: 695px;
     background: url(assets/images/background/xhero_img.jpg.pagespeed.ic.WrSXj_3UV4.webp);
     background-size: cover;
@@ -142,7 +142,7 @@ $widht: 100%;
 
 // start biografy section
 .all_body{
-    width: 100%;
+    width: $widht;
     height: 1044.14px;
     display: flex;
     justify-content: space-around;
@@ -368,8 +368,8 @@ $widht: 100%;
                 cursor: pointer;
                 transition: 0.2s;
                 &:hover{
-                    background:#a1dc77 ;
-                    border-color: #a1dc77 ;
+                    background:#5e8742 ;
+                    border-color: #5e8742  ;
                 }
                 
             }
@@ -401,6 +401,595 @@ $widht: 100%;
         }
     }
 
+}
+// end
+
+// start porfolio section
+.portfolio_box{
+    width: $widht;
+    height: 1183.43px;
+    .options_box{
+        width: 1110px;
+        height: 135px;
+        margin: auto;
+       h4{
+           width: 1110px;
+           height: 57.6px;
+           font-size: 3rem;
+           color: #000000;
+           font-size: 3rem;
+           font-family: 'PT Sans Caption', sans-serif;
+           font-weight: 500;
+           line-height: 1.2;
+           text-align: center;
+       }
+       ul{
+          width: 1110px;
+          height: 65.6px;
+          @include d-flex-center;
+          li{
+              margin-left: 40px;
+              a{
+                font-size: 16px;
+                color: #939393;
+                font-family: 'PT Sans Caption', sans-serif;
+                line-height: 1.6;
+                font-weight: 400;
+                transition: 0.2s;
+                &:hover{
+                    color: #96bb7c;
+                    cursor: pointer;
+                }
+                &:active{
+                    color: #96bb7c;
+                }
+              }
+          }
+       }
+    }
+    .portfolio_imgBoxs{
+        width: 1300px;
+        height: 834.25px;
+        margin: auto;
+        @include d-flex-justify;
+        .square_img_box{
+            width: 380px;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .same-box1{
+                width: 350px;
+                height: 234px;
+                background: url(assets/images/background/xwork_5.jpg.pagespeed.ic.0BYKX-EZB7.webp);
+                background-size: cover;
+                position: relative;
+                z-index: 10;
+                opacity: 1;
+                transition: 1s;
+                
+                 &:hover{
+                     cursor: pointer;
+                 }
+                 &:hover .opacity{
+                     display: block;
+                 }
+                 &:hover h3{
+                  display: block;
+                 }
+                 &:hover p{
+                     display: block;
+                 }
+                 .opacity{
+                     display: none;
+                     position: absolute;
+                     content: "";
+                     left: 0;
+                     bottom: 0;
+                     right: 0;
+                     top: 0;
+                     background: rgba(0, 0, 0, 0.4);
+                 }
+                
+                h3{
+                    display: none;
+                    width: 350px;
+                    height: 33.6px;
+                    text-align: center;
+                    position: relative;
+                    top: 85px;
+                    z-index: 3;
+                    font-family: 'PT Sans Caption', sans-serif;
+                    color: #ffffff;
+                    font-size: 1.75rem;
+                    font-weight: 500;
+                    line-height: 1.2;
+                    
+                }
+                p{
+                    display: none;
+                    width: 350px;
+                    height: 25.6px;
+                    text-align: center;
+                    position: relative;
+                    top: 90px;
+                    z-index: 3;
+                    color: #96bb7c;
+                    font-size: 16px;
+                    font-family: 'PT Sans Caption', sans-serif;
+                    line-height: 1.6;
+                    font-weight: 400;
+
+                }
+            }
+            .same-box2{
+                width: 350px;
+                height: 234px;
+                background: url(assets/images/background/work_3.jpg.webp);
+                background-size: cover;
+                position: relative;
+                z-index: 1;
+                opacity: 1;
+                transition: 1s;
+                 &:hover{
+                     cursor: pointer;
+                 }
+                 &:hover .opacity{
+                     display: block;
+                 }
+                 &:hover h3{
+                  display: block;
+                 }
+                 &:hover p{
+                     display: block;
+                 }
+                .opacity{
+                    display: none;
+                    position: absolute;
+                    content: "";
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    top: 0;
+                    background: rgba(0, 0, 0, 0.4);
+                }
+               
+               h3{
+                   display: none;
+                   width: 350px;
+                   height: 33.6px;
+                   text-align: center;
+                   position: relative;
+                   top: 85px;
+                   z-index: 3;
+                   font-family: 'PT Sans Caption', sans-serif;
+                   color: #ffffff;
+                   font-size: 1.75rem;
+                   font-weight: 500;
+                   line-height: 1.2;
+                   
+               }
+               p{
+                   display: none;
+                   width: 350px;
+                   height: 25.6px;
+                   text-align: center;
+                   position: relative;
+                   top: 90px;
+                   z-index: 3;
+                   color: #96bb7c;
+                   font-size: 16px;
+                   font-family: 'PT Sans Caption', sans-serif;
+                   line-height: 1.6;
+                   font-weight: 400;
+
+               }
+            }
+            .same-box3{
+                width: 350px;
+                height: 234px;
+                background: url(assets/images/background/work_4.jpg.webp);
+                background-size: cover;
+                position: relative;
+                z-index: 10;
+                opacity: 1;
+                transition: 1s;
+                &:hover{
+                    cursor: pointer;
+                }
+                &:hover .opacity{
+                    display: block;
+                }
+                &:hover h3{
+                 display: block;
+                }
+                &:hover p{
+                    display: block;
+                }
+                .opacity{
+                    display: none;
+                    position: absolute;
+                    content: "";
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    top: 0;
+                    background: rgba(0, 0, 0, 0.4);
+                }
+               
+               h3{
+                   display: none;
+                   width: 350px;
+                   height: 33.6px;
+                   text-align: center;
+                   position: relative;
+                   top: 85px;
+                   z-index: 3;
+                   font-family: 'PT Sans Caption', sans-serif;
+                   color: #ffffff;
+                   font-size: 1.75rem;
+                   font-weight: 500;
+                   line-height: 1.2;
+                   
+               }
+               p{
+                   display: none;
+                   width: 350px;
+                   height: 25.6px;
+                   text-align: center;
+                   position: relative;
+                   top: 90px;
+                   z-index: 3;
+                   color: #96bb7c;
+                   font-size: 16px;
+                   font-family: 'PT Sans Caption', sans-serif;
+                   line-height: 1.6;
+                   font-weight: 400;
+
+               }
+            }
+        }
+        .long_square_box{
+            width: 380px;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .img-box-long{
+                width: 350px;
+                height: 525.16px;
+                background: url(assets/images/background/xwork_1.jpg.pagespeed.ic.M9FN2R8bfA.webp);
+                background-size: cover;
+                position: relative;
+                z-index: 10;
+                opacity: 1;
+                transition: 1s;
+                &:hover{
+                    cursor: pointer;
+                }
+                &:hover .opacity{
+                    display: block;
+                }
+                &:hover h3{
+                 display: block;
+                }
+                &:hover p{
+                    display: block;
+                }
+                .opacity{
+                    display: none;
+                    position: absolute;
+                    content: "";
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    top: 0;
+                    background: rgba(0, 0, 0, 0.4);
+                }
+               
+               h3{
+                   display: none;
+                   width: 350px;
+                   height: 33.6px;
+                   text-align: center;
+                   position: relative;
+                   top: 228px;
+                   z-index: 3;
+                   font-family: 'PT Sans Caption', sans-serif;
+                   color: #ffffff;
+                   font-size: 1.75rem;
+                   font-weight: 500;
+                   line-height: 1.2;
+                   
+               }
+               p{
+                   display: none;
+                   width: 350px;
+                   height: 25.6px;
+                   text-align: center;
+                   position: relative;
+                   top: 235px;
+                   z-index: 3;
+                   color: #96bb7c;
+                   font-size: 16px;
+                   font-family: 'PT Sans Caption', sans-serif;
+                   line-height: 1.6;
+                   font-weight: 400;
+
+               }
+            }
+            .img-small-box{
+                width: 350px;
+                height: 249.1px;
+                background: url(assets/images/background/xwork_7.jpg.pagespeed.ic.WkZslw5fXJ.webp);
+                background-size: cover;
+                position: relative;
+                z-index: 10;
+                opacity: 1;
+                transition: 1s;
+                &:hover{
+                    cursor: pointer;
+                }
+                &:hover .opacity{
+                    display: block;
+                }
+                &:hover h3{
+                 display: block;
+                }
+                &:hover p{
+                    display: block;
+                }
+                .opacity{
+                    display: none;
+                    position: absolute;
+                    content: "";
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    top: 0;
+                    background: rgba(0, 0, 0, 0.4);
+                }
+               
+               h3{
+                   display: none;
+                   width: 350px;
+                   height: 33.6px;
+                   text-align: center;
+                   position: relative;
+                   top: 85px;
+                   z-index: 3;
+                   font-family: 'PT Sans Caption', sans-serif;
+                   color: #ffffff;
+                   font-size: 1.75rem;
+                   font-weight: 500;
+                   line-height: 1.2;
+                   
+               }
+               p{
+                   display: none;
+                   width: 350px;
+                   height: 25.6px;
+                   text-align: center;
+                   position: relative;
+                   top: 90px;
+                   z-index: 3;
+                   color: #96bb7c;
+                   font-size: 16px;
+                   font-family: 'PT Sans Caption', sans-serif;
+                   line-height: 1.6;
+                   font-weight: 400;
+
+               }
+            }
+        }
+        .mixed_square_box{
+            width: 380px;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .img-box-long{
+                width: 350px;
+                height: 525.13px;
+                background: url(assets/images/background/xwork_2.jpg.pagespeed.ic.uC-egiyjdV.webp);
+                background-size: cover;
+                position: relative;
+                z-index: 10;
+                opacity: 1;
+                transition: 1s;
+                &:hover{
+                    cursor: pointer;
+                }
+                &:hover .opacity{
+                    display: block;
+                }
+                &:hover h3{
+                 display: block;
+                }
+                &:hover p{
+                    display: block;
+                }
+                .opacity{
+                    display: none;
+                    position: absolute;
+                    content: "";
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    top: 0;
+                    background: rgba(0, 0, 0, 0.4);
+                }
+               
+               h3{
+                   display: none;
+                   width: 350px;
+                   height: 33.6px;
+                   text-align: center;
+                   position: relative;
+                   top: 227px;
+                   z-index: 3;
+                   font-family: 'PT Sans Caption', sans-serif;
+                   color: #ffffff;
+                   font-size: 1.75rem;
+                   font-weight: 500;
+                   line-height: 1.2;
+                   
+               }
+               p{
+                   display: none;
+                   width: 350px;
+                   height: 25.6px;
+                   text-align: center;
+                   position: relative;
+                   top: 236px;
+                   z-index: 3;
+                   color: #96bb7c;
+                   font-size: 16px;
+                   font-family: 'PT Sans Caption', sans-serif;
+                   line-height: 1.6;
+                   font-weight: 400;
+
+               }
+            }
+            .same-box4{
+                width: 350px;
+                height: 234px;
+                background: url(assets/images/background/xwork_6.jpg.pagespeed.ic.lYuTYXqc7Z.webp);
+                background-size: cover;
+                position: relative;
+                z-index: 10;
+                opacity: 1;
+                transition: 1s;
+                
+                 &:hover{
+                     cursor: pointer;
+                 }
+                 &:hover .opacity{
+                     display: block;
+                 }
+                 &:hover h3{
+                  display: block;
+                 }
+                 &:hover p{
+                     display: block;
+                 }
+                 .opacity{
+                     display: none;
+                     position: absolute;
+                     content: "";
+                     left: 0;
+                     bottom: 0;
+                     right: 0;
+                     top: 0;
+                     background: rgba(0, 0, 0, 0.4);
+                 }
+                
+                h3{
+                    display: none;
+                    width: 350px;
+                    height: 33.6px;
+                    text-align: center;
+                    position: relative;
+                    top: 85px;
+                    z-index: 3;
+                    font-family: 'PT Sans Caption', sans-serif;
+                    color: #ffffff;
+                    font-size: 1.75rem;
+                    font-weight: 500;
+                    line-height: 1.2;
+                    
+                }
+                p{
+                    display: none;
+                    width: 350px;
+                    height: 25.6px;
+                    text-align: center;
+                    position: relative;
+                    top: 90px;
+                    z-index: 3;
+                    color: #96bb7c;
+                    font-size: 16px;
+                    font-family: 'PT Sans Caption', sans-serif;
+                    line-height: 1.6;
+                    font-weight: 400;
+
+                }
+            }
+        }
+    }
+    
+}
+// end
+
+// start services section
+.services-box{
+    width: $widht;
+    height: 607.6px;
+    h2{
+        width: 1140px;
+        height: 113.6px;
+        margin: auto;
+        text-align: center;
+        color: #000000;
+        font-size: 3rem;
+        font-family: 'PT Sans Caption', sans-serif;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .icon_boxs{
+        width: 1140px;
+        height: 354px;
+        margin: auto;
+        @include d-flex-justify;
+        .service_icon{
+            width: 350px;
+            height: 306px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            
+            .fa-tv{
+                font-size: 50px;
+                color: #96bb7c;
+                text-align: center;
+            }
+            .fa-binoculars{
+                font-size: 50px;
+                color: #96bb7c;
+                text-align: center;
+            }
+            .fa-basket-shopping{
+                font-size: 50px;
+                color: #96bb7c;
+                text-align: center;
+            }
+            h5{
+                width: 288px;
+                height: 21.6px;
+                font-size: 18px;
+                color: #000000;
+                font-family: 'PT Sans Caption', sans-serif;
+                font-weight: 500;
+                line-height: 1.2;
+                text-align: center;
+            }
+            p{
+                width: 309px;
+                height: 102.4px;
+                text-align: center;
+                font-size: 16px;
+                color: #939393;
+                line-height: 1.6;
+                font-family: 'PT Sans Caption', sans-serif;
+                font-weight: 400;
+                margin-top: 10px;
+            }
+        }
+    }
 }
 // end
 
