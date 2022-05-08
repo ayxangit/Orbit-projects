@@ -1825,4 +1825,247 @@
   position: relative;
   bottom: 3px;
 }
+
+.contact_box {
+  width: 100%;
+  height: 637.9px;
+}
+
+.contact_box .contactMe {
+  width: 1140px;
+  height: 550px;
+  margin: auto;
+}
+
+.contact_box .contactMe h2 {
+  width: 1140px;
+  height: 113.6px;
+  text-align: center;
+  color: #000000;
+  font-size: 3rem;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.contact_box .contactMe .information_box {
+  width: 1140px;
+  height: 420.3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 120px;
+}
+
+.contact_box .contactMe .information_box .form {
+  width: 635px;
+  height: 420.3px;
+}
+
+.contact_box .contactMe .information_box .form .fullname {
+  width: 615px;
+  height: 78.6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.contact_box .contactMe .information_box .form .fullname .name {
+  width: 305px;
+  height: 78.6px;
+}
+
+.contact_box .contactMe .information_box .form .fullname .name input {
+  display: block;
+  width: 302.5px;
+  height: 45px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  background: transparent;
+  border-bottom: 1px solid #43434d;
+  border-radius: 0;
+  color: #000000;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.contact_box .contactMe .information_box .form .fullname .name input:hover {
+  border-color: #96bb7c;
+}
+
+.contact_box .contactMe .information_box .form .fullname .surname {
+  width: 305px;
+  height: 78.6px;
+}
+
+.contact_box .contactMe .information_box .form .fullname .surname input {
+  display: block;
+  width: 302.5px;
+  height: 45px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  background: transparent;
+  border-bottom: 1px solid #43434d;
+  border-radius: 0;
+  color: #000000;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.contact_box .contactMe .information_box .form .fullname .surname input:hover {
+  border-color: #96bb7c;
+}
+
+.contact_box .contactMe .information_box .form label {
+  display: block;
+  font-size: 16px;
+  color: #939393;
+  font-family: 'PT Sans Caption', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.contact_box .contactMe .information_box .form input {
+  display: block;
+  width: 635px;
+  height: 45px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  background: transparent;
+  border-bottom: 1px solid #43434d;
+  border-radius: 0;
+  color: #000000;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.contact_box .contactMe .information_box .form input:hover {
+  border-color: #96bb7c;
+}
+
+.contact_box .contactMe .information_box .form textarea {
+  width: 635px;
+  height: 133px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  background: transparent;
+  border-bottom: 1px solid #43434d;
+  border-radius: 0;
+  color: #000000;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.contact_box .contactMe .information_box .form textarea:hover {
+  border-color: #96bb7c;
+}
+
+.contact_box .contactMe .information_box .form button {
+  display: block;
+  width: 160.23px;
+  height: 48.25px;
+  border: 1px solid #96bb7c;
+  background: #96bb7c;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .05rem;
+  color: #fff;
+  line-height: 1.5;
+  cursor: pointer;
+  font-family: 'PT Sans Caption', sans-serif;
+  margin-top: 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.contact_box .contactMe .information_box .form button:hover {
+  border-color: #6ab439;
+  background: #6ab439;
+}
+
+.contact_box .contactMe .information_box .info {
+  width: 380px;
+  height: 420.3px;
+}
+
+.contact_box .contactMe .information_box .info h5 {
+  width: 350px;
+  height: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.25rem;
+  color: #000000;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.contact_box .contactMe .information_box .info .comunication_box {
+  width: 350px;
+  height: 190px;
+  margin-top: 15px;
+}
+
+.contact_box .contactMe .information_box .info .comunication_box .fa-location-dot {
+  line-height: 1;
+  font-size: 13px;
+}
+
+.contact_box .contactMe .information_box .info .comunication_box span {
+  color: #000000 !important;
+  font-style: normal;
+  font-size: 16px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 400;
+  margin-left: 6px;
+}
+
+.contact_box .contactMe .information_box .info .comunication_box a {
+  display: block;
+  color: #96bb7c;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+.contact_box .contactMe .information_box .info .comunication_box a .fa-phone {
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.contact_box .contactMe .information_box .info .comunication_box a .fa-envelope {
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.contact_box .contactMe .information_box .info .comunication_box a .fa-earth-americas {
+  font-size: 13px;
+  margin-right: 5px;
+}
 /*# sourceMappingURL=style.css.map */
