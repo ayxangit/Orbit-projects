@@ -1771,6 +1771,221 @@ $widht: 100%;
 }
 // end
 
+// start footer
+.footer{
+    width: $widht;
+    height: 508.4px;
+    background: #efefef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .about_box{
+        width: 1140px;
+        height: 282px;
+        @include d-flex-justify;
+        gap: 198px;
+        .orbit-box{
+            width: 380px;
+            height: 282px;
+            .textsBox{
+                width: 350px;
+                height: 116.4px;
+                h5{
+                    width: 350px;
+                    height: 19.2px;
+                    font-size: 16px;
+                    color: #000000;
+                    font-weight: 500;
+                    line-height: 1.2;
+                    font-family: 'PT Sans Caption', sans-serif;
+                }
+                p{
+                    width: 379px;
+                    height: 67.2px;
+                    font-size: 14px;
+                    color: #888;
+                    font-family: 'PT Sans Caption', sans-serif;
+                    line-height: 1.6;
+                    font-weight: 400;
+                    margin-top: 18px;
+                }
+            }
+            .social{
+                width: 350px;
+                height: 85.6px;
+                margin-top: 18px;
+                h5{
+                    width: 350px;
+                    height: 19.2px;
+                    font-size: 16px;
+                    color: #000000;
+                    font-weight: 500;
+                    line-height: 1.2;
+                    font-family: 'PT Sans Caption', sans-serif;
+                    margin-left: 1px;
+                }
+                .icon_boxs{
+                    width: 350px;
+                    height: 36.4px;
+                    display: flex;
+                    margin-top: 19px;
+                    transition: 0.5s;
+                    i{
+                        width: 30px;
+                        height: 30px;
+                        background: #777;
+                        border-radius: 50%;
+                        @include d-flex-center;
+                        color: white;
+                        font-size: 14px;
+                        line-height: 1;
+                        margin-left: 4px;
+                        transition: 0.4s;
+                        &:hover{
+                            background: #96bb7c;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+        .connection_box{
+            width: 680px;
+            height: 282px;
+            display: flex;
+            gap: 20px;
+            .navigationBox{
+                width: 190px;
+                height: 282px;
+                h5{
+                    width: 160px;
+                    height: 19.2px;
+                    font-size: 16px;
+                    color: #000000;
+                    font-weight: 500;
+                    line-height: 1.2;
+                    font-family: 'PT Sans Caption', sans-serif;
+                }
+                .linkBox{
+                    width: 150px;
+                    height: 62px;
+                    margin-top: 30px;
+                    a{
+                        display: block;
+                        font-size: 14px;
+                        color: #888;
+                        line-height: 1.6;
+                        font-family: 'PT Sans Caption', sans-serif;
+                        font-weight: 400;
+                        margin-top: 10px;
+                    
+                }
+            }
+            }
+            .servicesBox{
+                width: 190px;
+                height: 282px;
+                h5{
+                    width: 160px;
+                    height: 19.2px;
+                    font-size: 16px;
+                    color: #000000;
+                    font-weight: 500;
+                    line-height: 1.2;
+                    font-family: 'PT Sans Caption', sans-serif;
+                }
+                .linkBox{
+                    width: 150px;
+                    height: 62px;
+                    margin-top: 30px;
+                    a{
+                        display: block;
+                        font-size: 14px;
+                        color: #888;
+                        line-height: 1.6;
+                        font-family: 'PT Sans Caption', sans-serif;
+                        font-weight: 400;
+                        margin-top: 10px;
+                    
+                }
+            }
+            }
+            .contact_body{
+                width: 285px;
+                height: 282px;
+                h5{
+                    width: 160px;
+                    height: 19.2px;
+                    font-size: 16px;
+                    color: #000000;
+                    font-weight: 500;
+                    line-height: 1.2;
+                    font-family: 'PT Sans Caption', sans-serif;
+                }
+                
+                .linkBox{
+                    width: 150px;
+                    height: 62px;
+                    margin-top: 40px;
+                    position: relative;
+                    bottom: 10px;
+                    span{
+                        display: block;
+                        width: 255px;
+                        height: 44.8px;
+                        font-size: 14px;
+                        color: #888;
+                        line-height: 1.6;
+                        font-family: 'PT Sans Caption', sans-serif;
+                        font-weight: 400;
+                        margin-top: 10px;
+                        position: relative;
+                        bottom: 8px;
+                   }
+                    a{
+                        display: block;
+                        font-size: 14px;
+                        color: #888;
+                        line-height: 1.6;
+                        font-family: 'PT Sans Caption', sans-serif;
+                        font-weight: 400;
+                        margin-top: 15px;
+                    
+                }
+            }
+            }
+        }
+    }
+    .copyright{
+        width: 1140px;
+        height: 38.4px;
+        text-align: center;
+        margin-top: 35px;
+        p{
+            font-size: 14px;
+            color: #888;
+            line-height: 1.6;
+            font-family: 'PT Sans Caption', sans-serif;
+            font-weight: 400;
+            a{
+                color: #96bb7c;
+                line-height: 1.6;
+                font-family: 'PT Sans Caption', sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+            }
+            .fa-heart{
+                color: #dc3545!important;
+                line-height: 1;
+                font-size: 14px;
+               
+            } 
+        }
+    }
+}
+// end
+
     
 
 
