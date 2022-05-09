@@ -52,9 +52,6 @@ $widht: 100%;
                 &:hover li .dropdown-content{
                     display: block;
                 }
-                &:hover li .dropdown-content li .dropdown-content2{
-                    display: block;
-                }
                 li {
                     margin-left: 20px;
                     position: relative;
@@ -79,6 +76,9 @@ $widht: 100%;
                         z-index: 1;
                         padding: 20px 0;
                         margin-top: 10px;
+                        &:hover  li  .dropdown-content2{
+                            display: block;
+                        }
                         .fa-angle-right{
                             font-size: 13px;
                             color: #000000;
@@ -164,6 +164,7 @@ $widht: 100%;
     background-repeat: no-repeat ;
     background-position: 50% -25px;
     @include d-flex-center;
+    position: relative;
     .opacity{
         position: absolute;
         content: "";
@@ -537,8 +538,6 @@ $widht: 100%;
                 position: relative;
                 z-index: 10;
                 opacity: 1;
-                transition: 1s;
-                
                  &:hover{
                      cursor: pointer;
                  }
@@ -1664,6 +1663,7 @@ $widht: 100%;
             .form{
                 width: 635px;
                 height: 420.3px;
+                position: relative;
                 .fullname{
                     width: 615px;
                     height: 78.6px;
@@ -1722,6 +1722,9 @@ $widht: 100%;
                     font-family: 'PT Sans Caption', sans-serif;
                     line-height: 1.6;
                     font-weight: 400;
+                    position: relative;
+                    top: 12px;
+                    
                 }
                 input{
                     display: block;
@@ -1737,6 +1740,7 @@ $widht: 100%;
                     border-radius: 0;
                     color: #000000;
                     transition: 0.4s;
+                    margin-top: 15px;
                     &:hover{
                         border-color: #96bb7c;
                     }
@@ -1754,6 +1758,7 @@ $widht: 100%;
                     border-radius: 0;
                     color: #000000;
                     transition: 0.4s;
+                    margin-top: 20px;
                     &:hover{
                         border-color: #96bb7c;
                     }

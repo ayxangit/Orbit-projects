@@ -78,10 +78,6 @@
   display: block;
 }
 
-.header .inside_box .navbar .none_box:hover li .dropdown-content li .dropdown-content2 {
-  display: block;
-}
-
 .header .inside_box .navbar .none_box li {
   margin-left: 20px;
   position: relative;
@@ -112,6 +108,10 @@
   z-index: 1;
   padding: 20px 0;
   margin-top: 10px;
+}
+
+.header .inside_box .navbar .none_box li .dropdown-content:hover li .dropdown-content2 {
+  display: block;
 }
 
 .header .inside_box .navbar .none_box li .dropdown-content .fa-angle-right {
@@ -208,6 +208,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 .back_img_box .opacity {
@@ -639,8 +640,6 @@
   position: relative;
   z-index: 10;
   opacity: 1;
-  -webkit-transition: 1s;
-  transition: 1s;
 }
 
 .portfolio_box .portfolio_imgBoxs .square_img_box .same-box1:hover {
@@ -1952,6 +1951,7 @@
 .contact_box .contactMe .information_box .form {
   width: 635px;
   height: 420.3px;
+  position: relative;
 }
 
 .contact_box .contactMe .information_box .form .fullname {
@@ -2022,6 +2022,8 @@
   font-family: 'PT Sans Caption', sans-serif;
   line-height: 1.6;
   font-weight: 400;
+  position: relative;
+  top: 12px;
 }
 
 .contact_box .contactMe .information_box .form input {
@@ -2039,6 +2041,7 @@
   color: #000000;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  margin-top: 15px;
 }
 
 .contact_box .contactMe .information_box .form input:hover {
@@ -2059,6 +2062,7 @@
   color: #000000;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  margin-top: 20px;
 }
 
 .contact_box .contactMe .information_box .form textarea:hover {
