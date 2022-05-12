@@ -74,14 +74,14 @@
           align-items: center;
 }
 
-.header .inside_box .navbar .none_box:hover li .dropdown-content {
-  display: block;
-}
-
 .header .inside_box .navbar .none_box li {
   margin-left: 20px;
   position: relative;
   display: inline-block;
+}
+
+.header .inside_box .navbar .none_box li:hover .dropdown-content {
+  display: block;
 }
 
 .header .inside_box .navbar .none_box li .fa-angle-down {
@@ -108,10 +108,6 @@
   z-index: 1;
   padding: 20px 0;
   margin-top: 10px;
-}
-
-.header .inside_box .navbar .none_box li .dropdown-content:hover li .dropdown-content2 {
-  display: block;
 }
 
 .header .inside_box .navbar .none_box li .dropdown-content .fa-angle-right {
@@ -145,6 +141,10 @@
 .header .inside_box .navbar .none_box li .dropdown-content li {
   position: relative;
   display: inline-block;
+}
+
+.header .inside_box .navbar .none_box li .dropdown-content li:hover .dropdown-content2 {
+  display: block;
 }
 
 .header .inside_box .navbar .none_box li .dropdown-content li .dropdown-content2 {
@@ -640,10 +640,14 @@
   position: relative;
   z-index: 10;
   opacity: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .portfolio_box .portfolio_imgBoxs .square_img_box .same-box1:hover {
   cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .portfolio_box .portfolio_imgBoxs .square_img_box .same-box1:hover .opacity {
@@ -707,12 +711,14 @@
   position: relative;
   z-index: 1;
   opacity: 1;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .portfolio_box .portfolio_imgBoxs .square_img_box .same-box2:hover {
   cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .portfolio_box .portfolio_imgBoxs .square_img_box .same-box2:hover .opacity {
@@ -776,12 +782,14 @@
   position: relative;
   z-index: 10;
   opacity: 1;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .portfolio_box .portfolio_imgBoxs .square_img_box .same-box3:hover {
   cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .portfolio_box .portfolio_imgBoxs .square_img_box .same-box3:hover .opacity {
@@ -858,12 +866,14 @@
   position: relative;
   z-index: 10;
   opacity: 1;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .portfolio_box .portfolio_imgBoxs .long_square_box .img-box-long:hover {
   cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .portfolio_box .portfolio_imgBoxs .long_square_box .img-box-long:hover .opacity {
@@ -927,12 +937,14 @@
   position: relative;
   z-index: 10;
   opacity: 1;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .portfolio_box .portfolio_imgBoxs .long_square_box .img-small-box:hover {
   cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .portfolio_box .portfolio_imgBoxs .long_square_box .img-small-box:hover .opacity {
@@ -1009,12 +1021,14 @@
   position: relative;
   z-index: 10;
   opacity: 1;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .portfolio_box .portfolio_imgBoxs .mixed_square_box .img-box-long:hover {
   cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .portfolio_box .portfolio_imgBoxs .mixed_square_box .img-box-long:hover .opacity {
@@ -1078,12 +1092,14 @@
   position: relative;
   z-index: 10;
   opacity: 1;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .portfolio_box .portfolio_imgBoxs .mixed_square_box .same-box4:hover {
   cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .portfolio_box .portfolio_imgBoxs .mixed_square_box .same-box4:hover .opacity {
@@ -1815,12 +1831,12 @@
 }
 
 .readMe .skils_box {
-  width: 1140px;
+  width: 75.04%;
   height: 500px;
 }
 
 .readMe .skils_box h2 {
-  width: 1140px;
+  width: 1110px;
   height: 113.6px;
   text-align: center;
   color: #000000;
@@ -1831,7 +1847,7 @@
 }
 
 .readMe .skils_box .column_box {
-  width: 825px;
+  width: 855px;
   height: 335.4px;
   margin: auto;
   display: -webkit-box;
@@ -1862,7 +1878,7 @@
 }
 
 .readMe .skils_box .column_box .columnBox .time {
-  width: 467.38px;
+  width: 541.38px;
   height: 19.2px;
 }
 
@@ -1891,7 +1907,7 @@
 }
 
 .readMe .skils_box .column_box .columnBox .duration {
-  width: 119.71px;
+  width: 117.71px;
   height: 19.2px;
   position: relative;
   bottom: 15px;

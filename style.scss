@@ -49,13 +49,13 @@ $widht: 100%;
                 width: 652.4px;
                 height: 42.4px;
                 @include d-flex-justify;
-                &:hover li .dropdown-content{
-                    display: block;
-                }
                 li {
                     margin-left: 20px;
                     position: relative;
                     display: inline-block;
+                    &:hover .dropdown-content{
+                        display: block;
+                    }
                     .fa-angle-down{
                         font-size: 13px;
                         color: #000000;
@@ -76,9 +76,6 @@ $widht: 100%;
                         z-index: 1;
                         padding: 20px 0;
                         margin-top: 10px;
-                        &:hover  li  .dropdown-content2{
-                            display: block;
-                        }
                         .fa-angle-right{
                             font-size: 13px;
                             color: #000000;
@@ -106,6 +103,9 @@ $widht: 100%;
                         li{
                             position: relative;
                             display: inline-block;
+                            &:hover .dropdown-content2{
+                                display: block;
+                            }
                             .dropdown-content2{
                                 left: 160px;
                                 top: 0;
@@ -153,6 +153,7 @@ $widht: 100%;
         }
     }  
 }
+
 // end
 
 // start who i am 
@@ -530,6 +531,7 @@ $widht: 100%;
             display: flex;
             flex-direction: column;
             gap: 30px;
+            
             .same-box1{
                 width: 350px;
                 height: 234px;
@@ -538,8 +540,10 @@ $widht: 100%;
                 position: relative;
                 z-index: 10;
                 opacity: 1;
+                transition: 0.3s;
                  &:hover{
                      cursor: pointer;
+                     transform: scale(1.05);
                  }
                  &:hover .opacity{
                      display: block;
@@ -600,9 +604,10 @@ $widht: 100%;
                 position: relative;
                 z-index: 1;
                 opacity: 1;
-                transition: 1s;
+                transition: 0.3s;
                  &:hover{
                      cursor: pointer;
+                     transform: scale(1.05);
                  }
                  &:hover .opacity{
                      display: block;
@@ -663,9 +668,10 @@ $widht: 100%;
                 position: relative;
                 z-index: 10;
                 opacity: 1;
-                transition: 1s;
+                transition: 0.3s;
                 &:hover{
                     cursor: pointer;
+                    transform: scale(1.05);
                 }
                 &:hover .opacity{
                     display: block;
@@ -733,9 +739,10 @@ $widht: 100%;
                 position: relative;
                 z-index: 10;
                 opacity: 1;
-                transition: 1s;
+                transition: 0.3s;
                 &:hover{
                     cursor: pointer;
+                    transform: scale(1.05);
                 }
                 &:hover .opacity{
                     display: block;
@@ -796,9 +803,10 @@ $widht: 100%;
                 position: relative;
                 z-index: 10;
                 opacity: 1;
-                transition: 1s;
+                transition: 0.3s;
                 &:hover{
                     cursor: pointer;
+                    transform: scale(1.05);
                 }
                 &:hover .opacity{
                     display: block;
@@ -866,9 +874,10 @@ $widht: 100%;
                 position: relative;
                 z-index: 10;
                 opacity: 1;
-                transition: 1s;
+                transition: 0.3s;
                 &:hover{
                     cursor: pointer;
+                    transform: scale(1.05);
                 }
                 &:hover .opacity{
                     display: block;
@@ -929,10 +938,11 @@ $widht: 100%;
                 position: relative;
                 z-index: 10;
                 opacity: 1;
-                transition: 1s;
+                transition: 0.3s;
                 
                  &:hover{
                      cursor: pointer;
+                     transform: scale(1.05);
                  }
                  &:hover .opacity{
                      display: block;
@@ -1065,7 +1075,7 @@ $widht: 100%;
 
 // start ability section
 .ability_box{
-    width: 100%;
+    width: $widht;
     height: 970.8px;
     h2{
         width: 1140px;
@@ -1464,7 +1474,7 @@ $widht: 100%;
 
 // start happy clents section
 .happy_client_box{
-    width: 100%;
+    width: $widht;
     height: 900.8px;
     background-color: #f8f9fa!important;
     @include d-flex-center;
@@ -1552,16 +1562,16 @@ $widht: 100%;
 }
 // end
 
-// start contact sections
+// start read me sections
 .readMe{
-    width: 100%;
+    width: $widht;
     height: 679px;
     @include d-flex-center;
     .skils_box{
-        width: 1140px;
+        width: 75.04%;
         height: 500px;
         h2{
-            width: 1140px;
+            width: 1110px;
             height: 113.6px;
             text-align: center;
             color: #000000;
@@ -1571,7 +1581,7 @@ $widht: 100%;
             line-height: 1.2;
         }
         .column_box{
-            width: 825px;
+            width: 855px;
             height: 335.4px;
             margin: auto;
             display: flex;
@@ -1587,7 +1597,7 @@ $widht: 100%;
                 flex-wrap: wrap;
                 position: relative;
                 .time{
-                    width: 467.38px;
+                    width: 541.38px;
                     height: 19.2px;
                     a{
                         font-size: 12px;
@@ -1612,7 +1622,7 @@ $widht: 100%;
                     }
                 }
                 .duration{
-                    width: 119.71px;
+                    width: 117.71px;
                     height: 19.2px;
                     position: relative;
                     bottom: 15px;
@@ -1639,7 +1649,7 @@ $widht: 100%;
 
 // start contacts section
 .contact_box{
-    width: 100%;
+    width: $widht;
     height: 637.9px;
     .contactMe{
         width: 1140px;
@@ -1845,6 +1855,7 @@ $widht: 100%;
         }
     }
 }
+
 // end
 
 // start footer
